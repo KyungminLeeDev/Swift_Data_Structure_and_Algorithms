@@ -1,6 +1,4 @@
-# Swift Data Structure and Algorithms
-
-## The MIT License (MIT)
+# The MIT License (MIT)
 
 Copyright (c) 2016 Erik J. Azar & Mario Eguiluz
 
