@@ -1,6 +1,26 @@
-# Swift Data Structure and Algorithms
+# "스위프트 데이터 구조와 알고리즘" 예제 코드 업데이트
 
-## The MIT License (MIT)
+에이콘출판사의 도서 "스위프트 데이터 구조와 알고리즘"의 예제 코드를 최신 Xcode와 Swift에서 동작하도록 업데이트하는 프로젝트다.
+
+2017년 기준의 코드는 원서의 깃허브에서 확인 할 수 있다.
+[깃허브 링크](https://github.com/PacktPublishing/Swift-Data-Structure-and-Algorithms)
+
+
+
+
+## 원서 정보
+
+- "Swift Data Structure and Algorithms"
+- 저자: Azar, Erik / Eguiluz Alebicto, Mario
+- 출판사: Packt Publishing
+
+
+
+## 라이센스 정보
+
+- 원서의 저작권자가 MIT라이센스로 예제 코드를 배포했으므로 MIT 라이센스를 따르며 자세한 내용은 아래와 같다.
+
+### The MIT License (MIT)
 
 Copyright (c) 2016 Erik J. Azar & Mario Eguiluz
 
