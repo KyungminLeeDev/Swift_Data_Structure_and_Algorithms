@@ -1,5 +1,7 @@
 # "스위프트 데이터 구조와 알고리즘" 예제 코드 업데이트
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKyungminLeeDev%2FSwift_Data_Structure_and_Algorithms)](https://hits.seeyoufarm.com)
+
 - 에이콘출판사의 책 "스위프트 데이터 구조와 알고리즘"의 예제 코드를 최신 Xcode와 Swift에서 동작하도록 업데이트하는 프로젝트다.
 
 - 책을 학습하면서 예제 코드를 동작 가능하도록 변경하는 수준이므로, 수정된 코드가 저자의 의도와 다를 수 있다.
