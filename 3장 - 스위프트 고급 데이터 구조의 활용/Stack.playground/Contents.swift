@@ -1,5 +1,10 @@
 import Foundation
 
+/// Stack: LIFO 데이터 구조
+/// - 배열과 유사하지만, 개별 요소에 접근하기 위한 메소드가 제한적이다.
+/// - 배열: 개별 요소 무작위 접근 허용
+/// - 스택: 개별 요소에 접근하는 방법을 강하게 제한
+/// - 스택을 활용: 표현식 평가, 표현식 문법 파싱, 정수형 데이터의 이진수 변환, 역추적 알고리즘, 실행 취소/재실행 기능 제공
 public struct ArrayStack<T> {
     private var elements = [T]()
     
@@ -9,29 +14,36 @@ public struct ArrayStack<T> {
         self.elements = Array(s.reversed())
     }
     
-    public mutating func pop() -> T? {
-        return self.elements.popLast()
-    }
- 
+    /// 스택에 요소를 추가
     public mutating func push(element: T) {
         self.elements.append(element)
     }
     
+    /// 스택 상단의 요소를 꺼내서 삭제한 뒤 반환
+    public mutating func pop() -> T? {
+        return self.elements.popLast()
+    }
+    
+    /// 스택 상단의 요소를 반환
     public func peek() -> T? {
         return self.elements.last
     }
     
+    /// 스택에 포함된 요소의 수를 반환
+    public var count: Int {
+        return self.elements.count
+    }
+    
+    /// 스택이 비어있는지 여부를 반환
     public func isEmpty() -> Bool {
         return self.elements.isEmpty
     }
     
-    public var count: Int {
-        return self.elements.count
-    }
+    
 }
 
 
-
+// 스택 초기화시 배열처럼 "[]" 기호를 사용 하기 위한 프로토콜
 extension ArrayStack: ExpressibleByArrayLiteral {
     public init(arrayLiteral elements: T...) {
         self.init(elements)
